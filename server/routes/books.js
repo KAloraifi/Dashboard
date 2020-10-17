@@ -55,32 +55,32 @@ router.get('/rating-over-time', function (req, res, next) {
 });
 
 /* GET All read books. */
-router.get('/read-books', function (req, res, next) {
-  console.log(USER_ID, KEY);
+// router.get('/read-books', function (req, res, next) {
+//   console.log(USER_ID, KEY);
 
-  return booksInstace.get('/review/list', {
-    params: {
-      id: process.env.USER_ID,
-      key: KEY,
-      v: VERSION,
-      shelf: 'read',
-    }
-  })
-    .then(response => {
-      return xml2js.parseStringPromise(response)
-        .then(function (result) {
-          return res.json({ result })
-        })
-        .catch(function (error) {
-          console.log(error);
-          return 'Failed to parse response.'
-        })
-    })
-    .catch(error => {
-      console.log(error.response);
-      throw new Error();
-    })
-});
+//   return booksInstace.get('/review/list', {
+//     params: {
+//       id: process.env.USER_ID,
+//       key: KEY,
+//       v: VERSION,
+//       shelf: 'read',
+//     }
+//   })
+//     .then(response => {
+//       return xml2js.parseStringPromise(response)
+//         .then(function (result) {
+//           return res.json({ result })
+//         })
+//         .catch(function (error) {
+//           console.log(error);
+//           return 'Failed to parse response.'
+//         })
+//     })
+//     .catch(error => {
+//       console.log(error.response);
+//       throw new Error();
+//     })
+// });
 
 /* GET All reviews from all members books. */
 // router.get('/all-reviews', function (req, res, next) {
