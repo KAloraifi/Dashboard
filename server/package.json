@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "publishToHeroku": "cd ../ && git subtree push --prefix server heroku-chartjs-dashboard-api master || true"
   },
   "dependencies": {
     "axios": "^0.20.0",
