@@ -2,7 +2,7 @@
 The project aims to demonstrate the ability to design, and present dashboard across multiple datasets using different methods (i.e., Local CSV, External APIs).
 
 ## Architecture
-The system consists of two major components. 
+The system consists of three major components. 
 
 A client-facing or frontend application that is based on React and bootstrapped with [create-react-app](https://github.com/facebook/create-react-app).
 
