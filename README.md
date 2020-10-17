@@ -15,15 +15,15 @@ A set of CSV files which were obtained from the following sources:
 ## Installation
 ### Frontend
 1. Traverse to the `client` directory.
-2. Run `npm install` to install front dependencies.
+2. Run `npm install` to install client dependencies.
 
 ### Backend
 1. Traverse to the `server` directory.
-2. Run `npm install` to install backend dependencies
+2. Run `npm install` to install server dependencies
 
 ## Running
 ### Frontend
 1. Run the application locally: `npm start`.
 
 ### Backend
-1. Run the application locally: `npm run start`
+1. Run the application locally: `npm start`
