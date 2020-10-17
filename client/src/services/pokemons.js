@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const pokemonsInstance = axios.create({
-  baseURL: `http://localhost:3001/pokemons`,
+  baseURL: `https://chartjs-dashboard-api.herokuapp.com/pokemons`,
 })
 
 export const getAllPokemons = () => {

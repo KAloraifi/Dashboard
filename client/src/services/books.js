@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const booksInstace = axios.create({
-  baseURL: `http://localhost:3001/books`,
+  baseURL: `https://chartjs-dashboard-api.herokuapp.com/books`,
 })
 
 export const getAllBooksLanguages = () => {
