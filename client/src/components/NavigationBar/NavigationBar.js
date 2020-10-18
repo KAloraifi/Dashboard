@@ -22,6 +22,11 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  goodreadsLink: {
+    [theme.breakpoints.down('xs')]: {
+      display: 'none'
+    }
+  }
 }));
 
 export default function NavigationBar() {
@@ -42,7 +47,7 @@ export default function NavigationBar() {
               <img src={githubLogo} />
             </IconButton>
           </Tooltip>
-          <IconButton color="inherit" aria-label="launch" target="_blank" href="https://www.goodreads.com/api">
+          <IconButton className={classes.goodreadsLink} color="inherit" aria-label="launch" target="_blank" href="https://www.goodreads.com/api">
             <LaunchIcon />
             <Typography>
               Goodreads API
