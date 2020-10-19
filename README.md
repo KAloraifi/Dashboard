@@ -14,16 +14,19 @@ A set of CSV files which were obtained from the following sources:
 
 ## Installation
 ### Frontend
-1. Traverse to the `client` directory.
-2. Run `npm install` to install client dependencies.
+1. Traverse to the `client` directory
+2. Run `npm install` to install client dependencies
 
 ### Backend
-1. Traverse to the `server` directory.
+1. Traverse to the `server` directory
 2. Run `npm install` to install server dependencies
 
 ## Running
 ### Frontend
-1. Run the application locally: `npm start`.
+
+1. Traverse to the `client` directory
+2. Run the application locally: `npm start`
 
 ### Backend
-1. Run the application locally: `npm start`
+1. Traverse to the `server` directory
+2. Run the application locally: `npm start`
