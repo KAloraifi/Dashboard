@@ -153,7 +153,7 @@ export default function Dashboard() {
       <Grid item xs={12} md={12}>
         <Paper>
           <Typography variant='h6'>
-            Top Pokemons Comparison
+            Random Pokemon Comparisons
           </Typography>
           <Radar data={pokemons} options={{
             responsive: true,
